@@ -1,0 +1,42 @@
+<html>
+
+<head>
+    <title>z-index</title>
+    <style>
+
+
+body{
+    z-index:none;
+}
+        .special {
+            width: 200px;
+            height: 200px;
+            margin-bottom: 20px;
+
+        }
+
+        #firstid {
+            position: absolute;
+            background-color: green;
+            left: 20px;
+            top: 20px;
+            z-index:200;  
+            
+        }
+
+        #secondid {
+            position: relative;
+            background-color: blue;
+            left: 20px;
+            top: 20px;
+            z-index:15;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="firstid" class="special"></div>
+    <div id="secondid" class="special"></div>
+</body>
+
+</html>

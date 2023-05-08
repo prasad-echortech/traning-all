@@ -1,0 +1,44 @@
+.div{
+    display:block;
+    width:30%;
+    
+}
+@media screen and (max-width:570px) {
+    .xsm {
+        background-color: blue;
+    }
+}
+
+@media(min-width:570px) and (max-width:768px) {
+    .sm {
+        background-color: blue;
+       
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:992px){
+    .md {
+        background-color: blue;
+       
+    }
+}
+
+@media screen and (min-width:992px) and (max-width:1200px) {
+    .lg {
+        background-color: blue;
+     
+    }
+}
+
+@media screen and (min-width:1200px) and (max-width:1400px){
+    .xl {
+        background-color: blue;
+      
+    }
+}
+@media screen and (min-width:1400px) {
+    .xxl {
+        background-color: blue;
+        
+    }
+}

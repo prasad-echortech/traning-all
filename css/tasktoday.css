@@ -1,0 +1,59 @@
+.container {
+    display: flex;
+    border: 1px solid black;
+    width: 60%;
+    background-color: rgb(244, 216, 9);
+    align-items: center;
+    flex-direction: row;
+    display: block;
+}
+
+
+
+.one {
+    border: 1px solid red;
+    height: 150px;
+    width: 150px;
+    margin: 5px;
+    background-color: rgb(180, 113, 25);
+    text-align: center;
+    padding: 2%;
+
+
+}
+
+.two {
+    border: 1px solid red;
+    height: 150px;
+    width: 150px;
+    margin: 5px;
+    background-color: rgb(74, 13, 197);
+    text-align: center;
+    padding: 2%;
+    display: flex;
+    float: right;
+    clear: both;
+
+}
+
+.three {
+    border: 1px solid red;
+    height: 150px;
+    width: 150px;
+    margin: 5px;
+    background-color: rgb(30, 197, 24);
+    text-align: center;
+    padding: 2%;
+
+}
+
+.four {
+    border: 1px solid red;
+    height: 150px;
+    width: 150px;
+    margin: 5px;
+    background-color: rgb(134, 15, 64);
+    text-align: center;
+    padding: 2%;
+
+}

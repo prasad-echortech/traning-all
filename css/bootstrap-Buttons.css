@@ -1,0 +1,17 @@
+@media(hover: hover) and (pointer: fine) {
+    body:hover {
+        background: yellow;
+        
+    }
+}
+@media(hover:none) {
+    button:hover {
+        background: rgb(23, 1, 23)!important;
+       
+      
+    }
+body:hover {
+        background: rgb(20, 187, 84);
+    }
+}
+
